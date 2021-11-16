@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Book Cultist</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Petemoss&family=Praise&family=Roboto+Condensed:wght@300&family=Yuji+Boku&display=swap" rel="stylesheet">
+    	<style>
+            * {
+                box-sizing: border-box;
+            }          
+            body {
+                font-family: 'Bebas Neue', 'Petemoss', 'Praise', 'Roboto Condensed', 'Yuji Boku';
+                margin: 0;
+            }         
+            .header {
+                padding: 10px;
+                text-align: center;
+                font-family: 'Praise';
+                background-image: url(https://thezodiacroom.files.wordpress.com/2018/01/3889559-bookshelf-wallpaper.jpg);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-attachment:scroll;
+                color: #ddbb21;
+            }
+            .header h1 {
+                font-size: 100px;
+            }
+            .navbar {
+                overflow: hidden;
+                background-color: #7a1818;
+            }
+            .navbar a {
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+            }
+            .navbar span.right {
+                float: right;
+                display: block;
+                color: #FFF9EC;
+                text-align: center;
+                padding: 14px 20px;
+            }
+            .navbar a:hover {
+                background-color: #9b3030;
+                color: #dbd24c;
+            }
+            .row {
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-wrap: wrap;
+
+                flex-wrap: wrap;
+            }
+            .main {
+                -ms-flex: 100%;
+                flex: 100%;
+                align-items: center;
+                background-color: #000000;
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: top center;
+                background-attachment: scroll;
+                padding: 20px;
+            }
+            .main h2 {
+                color:#ddbb21;
+                font-size: 40px;
+                background-color: #00000000;
+                border: 8px solid #00000000;
+                padding: 10px;
+                margin: 10px;
+                width: 750px;
+                position: absolute;
+            }
+            .main a {
+                text-decoration: none;
+            }
+            .breaking news {
+                margin: 10px;
+                position: relative;
+                text-align: center;
+            }
+            .footer {
+                letter-spacing: 8px;
+                padding: 40px;
+                height: 150px;
+                width: 100%;
+                text-align: center;
+                color: #FFF9EC;
+                background-color: #7a1818;
+            }            
+            @media screen and (max-width: 700px) {
+                .row {
+                    flex-direction: column;
+                }
+            }            
+            @media screen and (max-width: 400px) {
+                .navbar a {
+                    float: none;
+                    width: 100%;
+                }
+            }
+            </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Novel Series</h1> </div>
+        <div class="navbar"> <a href="Homepage.html"> Home </a> <a href="ondemand.html"> Popular </a> <a href="angstyromance.html"> Angsty Romance </a> <a href="fantasyaction.html"> Fantasy Action </a> <a href="https://youtu.be/x6V9ezcEoOQ"> To You </a> <a href="aboutme.html"> About the Author </a> <span class="right">
+    </span> </div>
+        <div class="row">
+            <div class="main">
+                <h2>Howl's Moving Castle</h2>
+                <div class="breaking news">
+                    <a href="https://www.thefilmagazine.com/howls-moving-castle-miyazaki-ghibli-review/"> <img src="https://cdna.artstation.com/p/assets/images/images/027/482/244/large/sean-kyle-manaloto-howl-s.jpg?1591694503" alt="Howl's Moving Castle" width="1200"></a>
+                </div>
+                <h2>Castle in the Air</h2>
+                <div class="breaking news">
+                    <a href="https://www.nypl.org/blog/2009/05/17/castle-air-review"> <img src="http://2.bp.blogspot.com/-yIO6TRwHnAQ/UtQxrFEfxLI/AAAAAAAABIc/GMpCrHNyJZk/s1600/castle+in+the+air2.jpg" alt="Castle in the Air" width="1200"></a>
+                </div>
+                <h2>House of Many Ways</h2>
+                <div class="breaking news">
+                    <a href="https://www.nypl.org/blog/2009/05/25/house-many-ways-review"> <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fa45ec65-95bc-4edb-929d-bec92477a1de/d5iufvl-556a3a16-3b54-4655-b7ac-c279338b48df.jpg/v1/fill/w_900,h_450,q_75,strp/house_of_many_ways_by_b2illustration_d5iufvl-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDUwIiwicGF0aCI6IlwvZlwvZmE0NWVjNjUtOTViYy00ZWRiLTkyOWQtYmVjOTI0NzdhMWRlXC9kNWl1ZnZsLTU1NmEzYTE2LTNiNTQtNDY1NS1iN2FjLWMyNzkzMzhiNDhkZi5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.FAZmkmFOR9yYnytMLR0iZ2NK4E2cT2XIIO8yPAMk54s" alt="House of Many Ways" width="1200"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <h2>Never gonna run around.</h2> </div>
+    </body>
+</html>
